@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Production Design Tips & Chromakey Best Practices</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .info-page-body {
+            background-color: #070a10;
+            color: #94a3b8;
+            font-family: system-ui, sans-serif;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .info-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #0b0f19;
+            border: 1px solid #1e293b;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .info-header {
+            border-bottom: 1px solid #1e293b;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        .info-header h1 {
+            color: #f8fafc;
+            font-size: 2rem;
+            margin: 0 0 10px 0;
+        }
+
+        .info-back-btn {
+            display: inline-block;
+            background: #1e293b;
+            color: #f8fafc;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+            transition: background 0.15s;
+        }
+
+        .info-back-btn:hover {
+            background: #334155;
+        }
+
+        h2,
+        h3 {
+            color: #f8fafc;
+            margin-top: 30px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        code {
+            background: #1e293b;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #f8fafc;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body class="info-page-body">
+    <div class="info-container">
+        <a href="index.html" class="info-back-btn">← Back to Workspace Canvas</a>
+        <div class="info-header">
+            <h1>📚 Production Design Tips</h1>
+            <p>Advanced pipeline guides for implementing clean digital canvas templates into your editing suites.</p>
+        </div>
+
+        <h2>1. Precision Chroma Key Green Screen Setups</h2>
+        <p>When engineering background color blocks destined for real-time post-production keys, rely on clean
+            mathematical color hex inputs like <code>#00ff00</code> (Chroma Key Green) or <code>#0000ff</code> (Chroma
+            Key Blue). To maximize your alpha mask separation cleanly inside tools like Premiere Pro, After Effects, or
+            DaVinci Resolve, keep your subject's physical surface lighting independent from background illumination
+            levels to minimize light bleed on adjacent textures.</p>
+
+        <h2>2. Format & Aspect Ratio Blueprint Strategy</h2>
+        <p>Choosing your canvas resolution framework defines how your audience engages across diverse video layout
+            streams:</p>
+        <ul>
+            <li><strong>YouTube & Web (16:9 - 1920x1080):</strong> The definitive native baseline landscape presentation
+                format for desktop players and standard television distribution wrappers.</li>
+            <li><strong>Shorts & TikTok (9:16 - 1080x1920):</strong> Vertical optimization framework built intentionally
+                to capitalize on real estate parameters across modern mobile consumption algorithms.</li>
+            <li><strong>Instagram Layouts (1:1 - 1080x1080):</strong> Balanced profile grid layout parameters optimized
+                for editorial placements and uniform block alignment.</li>
+        </ul>
+
+        <h2>3. Resolving Artifacting with Matte Film Grain</h2>
+        <p>Uploading pure, perfectly flat solid blocks directly to streaming networks often triggers visible artifacting
+            and pixelation lines because of aggressive video compression algorithms. Injecting a subtle <strong>1% to 3%
+                noise matrix</strong> using our matte effect overlay adds textural data variance, forcing video players
+            to preserve gradients smoothly during encoding.</p>
+        <h2>4. Chroma Key Color Guide for Premiere Pro</h2>
+        <p>When working with chroma keying in Premiere Pro, it's essential to understand the color properties of your
+            green screen setup. The ideal chroma key green should be a vibrant, saturated shade that provides maximum
+            contrast against your subject while minimizing spill into the background.</p>
+        <p>To achieve the best results, use the following color guide:</p>
+        <ul>
+            <li><strong>Green Screen Color:</strong> #00ff00 (Vibrant Green)</li>
+            <li><strong>Background Color:</strong> #0000ff (Blue)</li>
+        </ul>
+    </div>
+</body>
+
+</html>
